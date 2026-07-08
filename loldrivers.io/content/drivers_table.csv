@@ -262,6 +262,7 @@
 [Mnemosyne.sys](drivers/24cc4f8d-a88d-4b2d-a912-bc773d12a524/),[2ccd04383dc2f1f777b7712c6f8ee6d05afac98d22cad8e96f5172ba9c5c53b0](drivers/24cc4f8d-a88d-4b2d-a912-bc773d12a524/),Vulnerable driver,2026-04-17
 [80.sys](drivers/2cc3dd4f-8a1e-4f1f-9871-0a14815949b4/),not available ,Vulnerable driver,2023-01-09
 [dtr_ec.sys](drivers/a2177b22-0401-4c31-8ae4-40a7e2a53653/),[d6cc311cd7f8232549a5597512facac44e63d5c808878f54c0c1c12482cf270f](drivers/a2177b22-0401-4c31-8ae4-40a7e2a53653/),Vulnerable driver,2026-04-13
+[pstrip64.sys](drivers/1db2dd90-5b8e-43c3-a39b-61e0614fb2ab/),[ab01485bb7c8bc1a9c86096eeea6d31d8fad557bf4d44072b46373d2203faa6e](drivers/1db2dd90-5b8e-43c3-a39b-61e0614fb2ab/),Vulnerable driver,2026-06-25
 [fd3b7234419fafc9bdd533f48896ed73_b816c5cd.sys](drivers/c7f76931-e24c-4d94-9e1f-5a083da581b4/),[274340f7185a0cc047d82ecfb2cce5bd18764ee558b5227894565c2f9fe9f6ab](drivers/c7f76931-e24c-4d94-9e1f-5a083da581b4/),Vulnerable driver,2023-07-25
 [dXIw8eZ9aYxQYzgm.sys](drivers/847e6aa7-ce2d-4f4a-aa6c-a00c5f0ad728/),[c3ea9a13da6f137238b4b912b1f398b8ccfae41ba618993e6cc6c73eb24800db](drivers/847e6aa7-ce2d-4f4a-aa6c-a00c5f0ad728/),Vulnerable driver,2026-04-17
 [FDMCJHJYXZITI.sys](drivers/f650dfc3-d3a1-4a9a-8b71-c599d1f9579c/),[177227f68cc28ee7726381b95f7d2215da35be3750157ebcb7e113201059026c](drivers/f650dfc3-d3a1-4a9a-8b71-c599d1f9579c/),Vulnerable driver,2026-04-17
