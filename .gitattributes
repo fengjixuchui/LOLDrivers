@@ -175,3 +175,6 @@ drivers/0b5c4cd701956b332e60ae85b8c3a7ea.bin filter=lfs diff=lfs merge=lfs -text
 drivers/297a9b187c6897749bc7bb92d02e95c0.bin filter=lfs diff=lfs merge=lfs -text
 drivers/b32a250d1ef99bb62dd66cea60311f43.bin filter=lfs diff=lfs merge=lfs -text
 drivers/23eed24b0a780863df35b500c4ea0733.bin filter=lfs diff=lfs merge=lfs -text
+drivers/96a8b9db2dc9cba8cdf90c7c33fe11c4.bin filter=lfs diff=lfs merge=lfs -text
+drivers/2c10be1aea72b7bdf07c735a4ad68876.bin filter=lfs diff=lfs merge=lfs -text
+drivers/e3c123a2ee4720001ed35d45fa1e57eb.bin filter=lfs diff=lfs merge=lfs -text
