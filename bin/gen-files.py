@@ -105,10 +105,10 @@ def gen_authentihash_lists(category_):
                             if key == "MD5" and value != "-":
                                 authentihash_md5_list.append(value)
                             if key == "SHA1" and value != "-":
-                                if i['SHA1'] != "-":
+                                if i.get('SHA1', '-') != "-":
                                     authentihash_sha1_list.append(value)
                             if key == "SHA256" and value != "-":
-                                if i['SHA256'] != "-":
+                                if i.get('SHA256', '-') != "-":
                                     authentihash_sha256_list.append(value)
     
     # Remove leading and trailing spaces as well as any duplicates
@@ -171,12 +171,12 @@ def gen_loadsdespitehvci_authentihash_lists(category_):
                                 if key == "MD5" and value != "-":
                                     authentihash_md5_list.append(value)
                                 if key == "SHA1" and value != "-":
-                                    if i['SHA1'] != "-":
+                                    if i.get('SHA1', '-') != "-":
                                         authentihash_sha1_list.append(value)
                                 if key == "SHA256" and value != "-":
-                                    if i['SHA256'] != "-":
+                                    if i.get('SHA256', '-') != "-":
                                         authentihash_sha256_list.append(value)
-    
+
     # Remove leading and trailing spaces as well as any duplicates
     authentihash_md5_list = list(set([i.lstrip().strip().lower() for i in authentihash_md5_list]))
     authentihash_sha1_list = list(set([i.lstrip().strip().lower() for i in authentihash_sha1_list]))
@@ -527,7 +527,7 @@ def _collect_driver_hashes(known_samples):
         list(filter(None, list(set(imphash_list)))),
     )
 
-def gen_sigma_rule_per_driver(file_path):
+def gen_sigma_rule_per_driver(file_path, directory=""):
     yaml_id = get_yaml_part(file_path=file_path, part_name="Id")
     category = get_yaml_part(file_path=file_path, part_name="Category") or "unknown"
     tags = get_yaml_part(file_path=file_path, part_name="Tags") or []
@@ -680,7 +680,7 @@ def gen_sigma_rules_per_driver():
             os.unlink(entry_path)
     generated = 0
     for file in yield_next_rule_file_path(path_to_yml):
-        if gen_sigma_rule_per_driver(file):
+        if gen_sigma_rule_per_driver(file, directory=output_dir):
             generated += 1
     print(f"[+] Generated {generated} per-driver Sigma rules.")
 
