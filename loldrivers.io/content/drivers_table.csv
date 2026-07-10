@@ -337,6 +337,7 @@
 [GlobalVistaVentures_v3.sys](drivers/90df671c-a903-49bd-ac62-c124d4f6901d/),[7ccb02b9dc8bb46e5ea32fb8f4c93bac195bcbb0c2fc02d3af28f4208afe7c41](drivers/90df671c-a903-49bd-ac62-c124d4f6901d/),Vulnerable driver,2026-04-17
 [ElbyCDIO.sys](drivers/7a722cd5-69ec-4680-9f20-9387f249a891/),[238046cfe126a1f8ab96d8b62f6aa5ec97bab830e2bae5b1b6ab2d31894c79e4](drivers/7a722cd5-69ec-4680-9f20-9387f249a891/),Vulnerable driver,2023-05-06
 [HardwareMon-x86.sys](drivers/24d8bef2-379c-4a27-bd2d-4f13136f3476/),[14807ce592bf8f12da8a338d7ef575ae60c2d513c5c7ecf1f276aef3b2aa627c](drivers/24d8bef2-379c-4a27-bd2d-4f13136f3476/),Vulnerable driver,2026-04-17
+[QIOMem.sys](drivers/6eca187c-8fb2-4eae-9c80-fd9ef9d8c91e/),[6abd8d0d541bcf9e257c65122216b1d2ae92cbf8a3a3cb7ce340846e66c449ca](drivers/6eca187c-8fb2-4eae-9c80-fd9ef9d8c91e/),Vulnerable driver,2026-07-10
 [rtkio.sys](drivers/8d3f27bd-c3fd-48d0-913a-e2caa6fbd025/),[074ae477c8c7ae76c6f2b0bf77ac17935a8e8ee51b52155d2821d93ab30f3761](drivers/8d3f27bd-c3fd-48d0-913a-e2caa6fbd025/),Vulnerable driver,2023-01-09
 [tboflhelper.sys](drivers/07c57c69-c8d7-40cf-8bcc-612671427044/),[aa20aa2316cd6d203146bd2bc5b7466ba7b83a8500654a688172bcafa82ab168](drivers/07c57c69-c8d7-40cf-8bcc-612671427044/),Vulnerable driver,2024-09-11
 [ProcessCtr.sys](drivers/5d658b45-81f0-442e-ac43-7c249ce1d54f/),[d64eeb940daffdc8327fb18b160c20e539088cf8407813655f59efa9fdf0022e](drivers/5d658b45-81f0-442e-ac43-7c249ce1d54f/),Vulnerable driver,2026-06-09
